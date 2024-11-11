@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações de página - Parte 1</title>
+    <link rel="stylesheet" href ="aulaConfigPag1.css">
+</head>
+<body>
+        <header>
+            <div class = "container">
+                <nav>
+                   
+                      <ul>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                                           
+                    </ul>                          
+                </nav>
+        </header>
+        <section id="hero">
+            <div class = "container">
+                <h2>Olá, eu sou o Matheus</h2>
+                
+                <p>Desenvolvedor aspirante, futuro Software Engineer</p>
+                <a href="https://github.com/mathheuspimentel" class="btn">Veja meus projetos no GIT</a>
+            </div>
+        </section>
+
+        <section id ="about">
+            <div class = "container">
+                <h2>Sobre mim</h2>
+                <p>Sou um futuro Software Engineer, eterno aprendiz de JavaScript e também C#. Já Atuei como desenvolvedor back end além de trabalhar suportando redes WAN. Tenho eterno fascínio pelo desafio e inovações, buscando sempre me atualizar. Espero que possamos trocar figurinhas dessa longa jornada</p>
+            </div>
+        </section>
+        <section id ="projects">
+            <div class = "container">
+                <h2>Meus projetos</h2>
+                <div class ="project">
+                    <img src="img/porjectTasks.webp" alt="projeto1">
+                    <div class="project-info">
+                        <h3>Sistema de gerenciamento de Tarefas</h3>
+                        <p>Aplicativo que visa editar, editar, criar e excluir tarefas. Inclui facilidades de categorização, definição de prazos e notificações para lembrar os usuários sobre tarefas pendentes</p>
+                    </div>
+                </div>
+                <div class ="project">
+                    <img src="img/previsaoTempo.webp" alt = "projeto2">
+                    <div class="project-info">
+                        <h3>Aplicativo de previsão de tempo</h3>
+                        <p>Um aplicativo móvel que exibe a previsão do tempo para diferentes locais. Os usuários podem buscar por cidade ou usar a localização atual para obter previsões do tempo</p>
+                    </div>
+                </div>
+                <div class ="project">
+                    <img src="img/blog.jpeg" alt = "projeto3">
+                    <div class="project-info">
+                        <h3>Plataforma de Blog</h3>
+                        <p>Um aplicativo móvel que exibe a previsão do tempo para diferentes locais. Os usuários podem buscar por cidade ou usar a localização atual para obter previsões do tempo</p>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <section id ="contact">
+            <div class="container">
+                <h2>Contate-me por e-mail</h2>
+                <form action = "#" method="post">
+                   <label for="name">Nome: </label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="email">Deixe seu recado: </label>
+                    <textarea  id="message" name="message" rows="4" required></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <div class = "container">
+                <p>&copy; 2024 Matheus Pimentel - Projeto Portfolio</p>
+            </div>
+        </footer>
+
+
+</body>
+</html>
