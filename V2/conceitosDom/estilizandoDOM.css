@@ -1,0 +1,79 @@
+
+body{   
+    display: flex;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    margin:0;
+    padding: 20px;    
+    background-color: #f4f4f4;
+   
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+
+
+p{
+    
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid   #801313;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    margin: 10px 0;
+    padding:10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+#elementoParaEstilizar{
+    border: 1 px solid #333;
+    padding: 10px;
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+
+    
+}
+.highlightElementoParaEstilizar{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+.highlight{
+    background-color: #f4f4f4;
+    background : url('img/background3.webp') no-repeat center center/cover
+}
+.highlighth1{
+    font-weight: bold;
+    background-color: black;
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+  
+    
+}
+
+
