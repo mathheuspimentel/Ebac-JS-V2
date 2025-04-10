@@ -6,9 +6,9 @@ Nela irá encontrar, por enquanto o arquivo index.html, onde salvamos a prática
 
 Também apresentaremos o projeto de armazenar um valor, presente no arquivo armazenaValor.html
 
-Em breve continuaremos trabalhando com alguns projetos, sendo eles:
+Aqui encontrará os projetos COMPLETOS DE:
 App de METEOROLOGIA;
 ECOMMERCE;
-CARTORIO;
+
 
 
